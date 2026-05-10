@@ -79,9 +79,7 @@ fraud-detection/
 │   └── complete_eda.ipynb               ← Full Jupyter notebook (EDA + ML)
 │
 ├── powerbi/
-│   └── dashboard_documentation.md       ← Full Power BI implementation guide
-│                                           (DAX measures, layout, drill-through)
-│
+│   └── dashboard.pbix      
 ├── documentation/
 │   ├── project_documentation.md         ← Technical implementation docs
 │   ├── business_problem.md              ← Business context & problem framing
@@ -193,13 +191,7 @@ GROUP BY type ORDER BY fraud_rate_pct DESC;
 
 ## 🧠 Machine Learning
 
-### Models Trained
 
-| Model | Precision | Recall | F1-Score | ROC-AUC |
-|-------|-----------|--------|----------|---------|
-| Logistic Regression | 0.XX | 0.XX | 0.XX | 0.XX |
-| Decision Tree | 0.XX | 0.XX | 0.XX | 0.XX |
-| **Random Forest** | **0.XX** | **0.XX** | **0.XX** | **0.XX** |
 
 *Actual values generated when pipeline runs on full PaySim dataset*
 
@@ -231,33 +223,7 @@ GROUP BY type ORDER BY fraud_rate_pct DESC;
 
 ---
 
-## 📋 Resume Positioning
 
-### Resume Bullet Points (ATS-Optimized)
-
-```
-• Built end-to-end Financial Transaction Fraud Detection system analyzing 6M+ synthetic 
-  transactions using Python (Pandas, Scikit-learn), MySQL, and Power BI
-
-• Engineered 10+ fraud-detection features (zero_balance_after, amount_to_balance, 
-  balance_mismatch) achieving Random Forest Recall of 0.78+ on severely imbalanced dataset 
-  (0.6% fraud rate)
-
-• Designed 4-page Power BI executive dashboard with 10+ DAX measures tracking Fraud Rate %, 
-  Total Loss, Detection Rate, and drill-through investigation workflows
-
-• Wrote 19 SQL queries including Window Functions (LAG/LEAD, RANK, running totals), CTEs, 
-  and stored procedures for automated fraud report generation in MySQL
-
-• Reduced false negative risk by applying class_weight='balanced' to handle class imbalance, 
-  prioritizing Recall metric over Accuracy for fraud detection business context
-```
-
-### LinkedIn Project Summary
-> **Financial Transaction Fraud Detection & Risk Analytics System**  
-> Built a portfolio-grade fraud analytics system on PaySim's 6M+ transaction dataset. Tech stack: Python (Pandas, Scikit-learn), MySQL, Power BI. Delivered 19 SQL business queries, 3 interpretable ML models (Logistic Regression, Decision Tree, Random Forest), and a 4-page Power BI executive dashboard. Key finding: account-drain-to-zero pattern identifies fraud at 18× the base rate.
-
----
 
 ## 📚 Documentation Index
 
